@@ -1,0 +1,8 @@
+# Optimization of contrast resolution by genetic algorithm in ultrasound tissue harmonic imaging : Simulation 
+
+Optimization of contrast resolution by genetic algorithm in ultrasound tissue harmonic imaging : Simulation. This program can optimize the ultrasound excitation from a genetic algorithm. The simulation model is constructed on the basis of the pulse inversion imaging system. It is composed of different phases: transmission, 2D nonlinear propagation and reception. The 2D nonlinear wave propagation is solved using the Anderson model based on a pseudo-spectral derivative and a time-domain integration algorithm. This solver requires three grids: a grid of mean density, a grid of mean speed of sound and a grid of a B/A nonlinearity parameter. The tissue echoes are filtered by the transfer function of the transducer. Finally, the contrast resolution is computed from the radiofrequency line and the optimization process computes a new stochastic signal to explore the medium again. To run this code, the main file is En_Optimisation.m. However, you have to set the medium properties by En_FindEnergy.m (values) and En_propagation.m (geometry) 
+
+More information in : https://hal.archives-ouvertes.fr/hal-01986160
+
+To use this program, cite : <br/>
+Ménigot, S., & Girault, J. M. (2016). Optimization of contrast resolution by genetic algorithm in ultrasound tissue harmonic imaging. Ultrasonics, 71, 231-244. https://hal.archives-ouvertes.fr/hal-01340713
